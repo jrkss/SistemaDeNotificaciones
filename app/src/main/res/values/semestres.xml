@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="semestre">
+        <item>Seleccione el semestre</item>
+        <item>1° Semestre</item>
+        <item>2° Semestre</item>
+        <item>3° Semestre</item>
+        <item>4° Semestre</item>
+        <item>5° Semestre</item>
+        <item>6° Semestre</item>
+        <item>7° Semestre</item>
+        <item>8° Semestre</item>
+        <item>9° Semestre</item>
+    </string-array>
+</resources>

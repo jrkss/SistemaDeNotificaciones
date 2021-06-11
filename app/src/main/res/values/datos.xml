@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Ingeniería">
+        <item>  Selecciona una Ingeniería</item>
+        <item>Ing. en Sistemas Computacionales</item>
+        <item>Ing. en Gestion Empresarial</item>
+        <item>Ing. en Desarrollo Comunitario</item>
+        <item>Ing. Forestal</item>
+        <item>Ing. en Innovación Agricola Sustentable</item>
+    </string-array>
+</resources>

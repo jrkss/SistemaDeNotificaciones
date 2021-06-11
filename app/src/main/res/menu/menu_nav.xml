@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itszid"
+        android:title="ITSZ"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/campusid"
+        android:title="Campus"
+        android:icon="@drawable/ic_book"/>
+
+    <item android:id="@+id/carrerazid"
+        android:title="@string/carrera"
+        android:icon="@drawable/ic_book"/>
+
+    <item android:id="@+id/campusCaid"
+        android:title="@string/campus_carrera"
+        android:icon="@drawable/ic_person"/>
+
+    <item android:id="@+id/menuid"
+        android:title="Menu"
+        android:icon="@drawable/ic_dehaze"/>
+
+</menu>

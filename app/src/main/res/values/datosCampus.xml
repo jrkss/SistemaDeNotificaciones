@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Campus">
+        <item>Selecciona el campus</item>
+        <item>Zongolica</item>
+        <item>Sede Nogales</item>
+        <item>Sede Tezonapa</item>
+        <item>Sede Tehuipango</item>
+        <item>Sede Tequila</item>
+        <item>Sede Cuichapa</item>
+        <item>Sede Aculzinapa</item>
+    </string-array>
+</resources>

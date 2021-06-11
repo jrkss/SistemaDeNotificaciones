@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mendez.windows">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_itszlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Administrativo.Grupos.JefeGrupo"></activity>
+        <activity android:name=".Administrativo.Grupos.SelectGrupo" />
+        <activity android:name=".Administrativo.Contacts.Mensajeria" />
+        <activity android:name=".Docente.CarreraDocenteActivity" />
+        <activity android:name=".Docente.CCarreraDocenteActivity" />
+        <activity android:name=".Docente.MenuDocenteActivity" />
+        <activity android:name=".Docente.CampusDocenteActivity" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectZongolica.ZongolicaSistemas" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectZongolica.ZongolicaInnovacion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectZongolica.ZongolicaGestion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectZongolica.ZongolicaForestal" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectZongolica.ZongolicaDesarrollo" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTezonapa.TezonapaSistemas" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTezonapa.TezonapaInnovacion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTezonapa.TezonapaGestion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTezonapa.TezonapaForestal" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTezonapa.TezonapaDesarrollo" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTequila.TequilaSistemas" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTequila.TequilaInnovacion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTequila.TequilaGestion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTequila.TequilaForestal" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTequila.TequilaDesarrollo" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTehuipango.TehuipangoSistemas" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTehuipango.TehuipangoInnovacion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTehuipango.TehuipangoGestion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTehuipango.TehuipangoForestal" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTehuipango.TehuipangoDesarrollo" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectNogales.NogalesSistemas" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectNogales.NogalesInnovacion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectNogales.NogalesGestion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectNogales.NogalesForestal" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectNogales.NogalesDesarrollo" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectCuichapa.CuichapaSistemas" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectCuichapa.CuichapaInnovacion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectCuichapa.CuichapaGestion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectCuichapa.CuichapaForestal" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectCuichapa.CuichapaDesarrollo" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectAculzinapa.AculzinapaInnovacion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectAculzinapa.AculzinapaForestal" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectAculzinapa.AculzinapaDesarrollo" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectAculzinapa.AculzinapaGestion" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectAculzinapa.AculzinapaSistemas" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTezonapa.SelectTezonapa" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTequila.SelectTequila" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectTehuipango.SelectTehuipango" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectNogales.SelectNogales" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectCuichapa.SelectCuichapa" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectAculzinapa.SelectAculzinapa" />
+        <activity android:name=".Administrativo.MensajeCarrera.SustentableAdmin" />
+        <activity android:name=".Administrativo.MensajeCarrera.ForestalAdmin" />
+        <activity android:name=".Administrativo.MensajeCarrera.DesarrolloAdmin" />
+        <activity android:name=".Administrativo.MensajeCarrera.GestionAdmin" />
+        <activity android:name=".Administrativo.MensajeCarrera.SistemasAdmin" />
+        <activity android:name=".Administrativo.Contacts.Contacts" />
+        <activity android:name=".Administrativo.Campusms.SelectCampus.SelectZongolica.SelectZongolica" />
+        <activity
+            android:name=".Administrativo.Campusms.Aculzinapams"
+            android:parentActivityName=".Administrativo.CampusAdminActivity" />
+        <activity
+            android:name=".Administrativo.Campusms.Cuichapams"
+            android:parentActivityName=".Administrativo.CampusAdminActivity" />
+        <activity
+            android:name=".Administrativo.Campusms.Tehuipangoms"
+            android:parentActivityName=".Administrativo.CampusAdminActivity" />
+        <activity
+            android:name=".Administrativo.Campusms.Tezonapams"
+            android:parentActivityName=".Administrativo.CampusAdminActivity" />
+        <activity
+            android:name=".Administrativo.Campusms.Tequilams"
+            android:parentActivityName=".Administrativo.CampusAdminActivity" />
+        <activity
+            android:name=".Administrativo.Campusms.Nogalesms"
+            android:parentActivityName=".Administrativo.CampusAdminActivity" />
+        <activity
+            android:name=".Administrativo.Campusms.Zongolicams"
+            android:parentActivityName=".Administrativo.CampusAdminActivity" />
+        <activity android:name=".Administrativo.Perfil.PerfilAdminActivity" />
+        <activity android:name=".Administrativo.CampusAdminActivity" />
+        <activity android:name=".Administrativo.CarreraAdminActivity" />
+        <activity android:name=".Administrativo.CCarreraAdminActivity" />
+        <activity android:name=".Administrativo.MenuAdminActivity" />
+        <activity android:name=".Docente.PrincipalDocente" />
+        <activity android:name=".Administrativo.PrincipalAdministrativo" />
+        <activity
+            android:name=".Alumno.Perfil.PerfilActivity"
+            android:parentActivityName=".Alumno.MenuActivity" />
+        <activity android:name=".Alumno.MenuActivity" />
+        <activity android:name=".Alumno.CarreraActivity" />
+        <activity android:name=".Alumno.CCarreraActivity" />
+        <activity android:name=".Alumno.CampusActivity" />
+        <activity android:name=".SeleccionRegistro" />
+        <activity android:name=".Alumno.Principal" />
+        <activity android:name=".Registro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

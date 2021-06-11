@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "727600870910",
+    "firebase_url": "https://windows-60b7b.firebaseio.com",
+    "project_id": "windows-60b7b",
+    "storage_bucket": "windows-60b7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727600870910:android:adfac5c7bf47cd8fb5bcaf",
+        "android_client_info": {
+          "package_name": "com.mendez.windows"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727600870910-u0864p8t5s2bjhavgn83cpiv0gm395jr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_VHRAIXj6ozVaaUbTJeYoADKBdNQkNQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727600870910-u0864p8t5s2bjhavgn83cpiv0gm395jr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
